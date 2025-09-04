@@ -552,12 +552,12 @@ body {
 
 
 .end {
-    height: 300px;
-    width: 50vw;
+    height: 350px;
+    width: 55vw;
     background-color: transparent;
     margin-left: 650px;
     font-size: 30px;
-    line-height: 5rem;
+    line-height: 4.5rem;
     text-align: right;
     margin-top: 50px;
     padding-right: 50px;
