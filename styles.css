@@ -1,0 +1,645 @@
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+
+    /* overflow-x: hidden; */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    height: 80px;
+    width: 100vw;
+}
+
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.l {
+    padding-left: 100px;
+    height: 70px;
+}
+
+.ln {
+    margin-left: -550px;
+    height: 150px;
+}
+
+.nav2 {
+    padding-right: 50px;
+}
+
+.link {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.link:hover{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.subp {
+    width: 70vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+}
+
+.subp p {
+    color: black;
+    padding: 20px 20px;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+
+.p {
+    background-image: url('./img/land22.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    height: 75vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title {
+    width: 700px;
+}
+
+.title h1 {
+    font-family: "Orbitron", sans-serif;
+    -webkit-text-stroke: 1px black;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+.title p {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    -webkit-text-stroke: .3px black;
+}
+
+
+.car {
+    padding: 80px;
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 80vw;
+    height: auto;
+}
+
+
+.details1,
+.details2 {
+    width: 70vw;
+    color: white;
+    text-align: justify;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 1.5rem;
+
+
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.details1 {
+    text-align: center;
+    font-weight: 900;
+    width: 40vw;
+    padding: 10px;
+}
+
+
+.p1 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg1.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p1 .subp p{
+    text-align: right;
+}
+
+
+
+.p2 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p2 .subp p{
+    text-align: right;
+}
+
+
+
+.p3 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.p4 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg4.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p4 .subp p{
+    text-align: right;
+}
+
+
+
+.p5 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg5.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.p6 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg6.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.p7 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg7.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p8 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg8.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p9 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg9.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p10 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/bg10.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p11 {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./img/card1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.content1 {
+    height: 400px;
+    background-image: url('./img/land9.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.content2 {
+    height: 400px;
+    background-image: url('./img/land10.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content3 {
+    height: 400px;
+    background-image: url('./img/land6.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.content4 {
+    height: 400px;
+    background-image: url('./img/land8.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content5 {
+    height: 400px;
+    background-image: url('./img/land7.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content6 {
+    height: 400px;
+    background-image: url('./img/land6.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content7 {
+    height: 400px;
+    background-image: url('./img/land7.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content8 {
+    height: 400px;
+    background-image: url('./img/land9.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content9 {
+    height: 400px;
+    background-image: url('./img/land8.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content10 {
+    height: 400px;
+    background-image: url('./img/land7.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content11 {
+    height: 400px;
+    background-image: url('./img/land10.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content12 {
+    height: 400px;
+    background-image: url('./img/land24.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+
+
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.end{
+    height: 300px;
+    width: 50vw;
+    background-color: transparent;
+    margin-left: 650px;
+    font-size: 30px;
+    line-height: 5rem;
+    text-align: right;
+    margin-top: 50px;
+    padding-right: 50px;
+}
+.aut{
+    padding-right: 20px;
+    font-size: 30px;
+}
+.por{
+    font-size: 80px;
+}
+
+.footer{
+    justify-content: center;
+    z-index: 1;
+    height: 50px;
+    color: white;
+    padding-bottom: 50px;
+    text-align: center;
+    word-spacing: .5rem;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color:black;
+    background-image: url('./img/road1.jpg');
+}
+::-webkit-scrollbar-thumb{
+    background-image: url('./img/scroll.png');
+    background-image: url('./img/Adobe\ Express\ -\ file\ \(1\).png');
+    background-size: cover;
+    height: 20px;
+    z-index: 1;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+.con_img1 {
+    animation: moveX1 linear both;
+    animation-timeline: view();
+    animation-range: entry 0% exit 100%;
+}
+
+@keyframes moveX1 {
+    0% {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    65% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+}
+
+.con_img2 {
+    animation: moveX2 linear both;
+    animation-timeline: view();
+    animation-range: entry 0% exit 100%;
+}
+
+@keyframes moveX2 {
+    0% {
+        transform: translateX(-100vw);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    65% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(100vw);
+        opacity: 0;
+    }
+}
