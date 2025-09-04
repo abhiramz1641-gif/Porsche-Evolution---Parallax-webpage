@@ -1,12 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 
 body,
 html {
-    height: 100%;
+    width:100%;
     margin: 0;
     font-family: "Orbitron", sans-serif;
+    box-sizing: border-box;
 
-    /* overflow-x: hidden; */
 }
+
+
 
 body {
     overflow-x: hidden;
@@ -24,13 +33,19 @@ body {
     align-items: center;
 }
 
+.logo {
+    margin-left: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .l {
-    padding-left: 100px;
-    height: 70px;
+    height: 60px;
 }
 
 .ln {
-    margin-left: -550px;
     height: 150px;
 }
 
@@ -47,7 +62,9 @@ body {
     font-weight: 700;
 }
 
-.link:hover{
+
+
+.link:hover {
     background-color: black;
     border-radius: 5px;
     color: white;
@@ -84,7 +101,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    
+
 
     padding-top: 100px;
     padding-bottom: 30px;
@@ -92,7 +109,7 @@ body {
     height: 75vh;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .title {
@@ -115,6 +132,7 @@ body {
 }
 
 
+
 .car {
     padding: 80px;
     display: block;
@@ -127,16 +145,14 @@ body {
 
 .details1,
 .details2 {
-    width: 70vw;
+    width: 80vw;
     color: white;
     text-align: justify;
     font-weight: 700;
-    padding: 20px;
+    padding: 25px;
     line-height: 1.5rem;
 
 
-    /* From https://css.glass */
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -147,8 +163,8 @@ body {
 .details1 {
     text-align: center;
     font-weight: 900;
-    width: 40vw;
-    padding: 10px;
+    width: auto;
+    padding: 30px;
 }
 
 
@@ -165,7 +181,7 @@ body {
     background-size: cover;
 }
 
-.p1 .subp p{
+.p1 .subp p {
     text-align: right;
 }
 
@@ -184,7 +200,7 @@ body {
     background-size: cover;
 }
 
-.p2 .subp p{
+.p2 .subp p {
     text-align: right;
 }
 
@@ -218,7 +234,7 @@ body {
     background-size: cover;
 }
 
-.p4 .subp p{
+.p4 .subp p {
     text-align: right;
 }
 
@@ -532,7 +548,10 @@ body {
     background-size: cover;
 
 }
-.end{
+
+
+
+.end {
     height: 300px;
     width: 50vw;
     background-color: transparent;
@@ -543,15 +562,17 @@ body {
     margin-top: 50px;
     padding-right: 50px;
 }
-.aut{
+
+.aut {
     padding-right: 20px;
     font-size: 30px;
 }
-.por{
+
+.por {
     font-size: 80px;
 }
 
-.footer{
+.footer {
     justify-content: center;
     z-index: 1;
     height: 50px;
@@ -559,21 +580,23 @@ body {
     padding-bottom: 50px;
     text-align: center;
     word-spacing: .5rem;
-} 
+}
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 20px;
     border-radius: 10px;
 }
-::-webkit-scrollbar-track{
-    background-color:black;
+
+::-webkit-scrollbar-track {
+    background-color: black;
     background-image: url('./img/road1.jpg');
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-image: url('./img/scroll.png');
     background-image: url('./img/Adobe\ Express\ -\ file\ \(1\).png');
     background-size: cover;
@@ -582,6 +605,442 @@ html{
     border-radius: 2px;
 }
 
+
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .car {
+        padding: 80px;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        width: 60vw;
+        height: auto;
+    }
+
+
+    .details1,
+    .details2 {
+        width: 80vw;
+        color: white;
+        text-align: justify;
+        font-weight: 700;
+        padding: 15px;
+        line-height: 1.2rem;
+    }
+
+    .details1 {
+        text-align: center;
+        font-weight: 900;
+        width: auto;
+        padding: 20px;
+    }
+
+    .subp {
+        height: auto;
+        width: 70vw;
+    }
+
+    .subp p {
+        font-size: 16px;
+        padding: 15px 15px;
+        font-weight: 900;
+    }
+
+    .content12 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .end {
+        margin-left: 0px;
+        color: white;
+        height: 300px;
+        width: 90vw;
+        font-size: 30px;
+        line-height: 5rem;
+        text-align: right;
+        margin-top: 50px;
+        padding-bottom: 250px;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aut {
+        padding-right: 20px;
+        font-size: 30px;
+    }
+
+    .por {
+        font-size: 80px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .nav2 {
+        display: none;
+    }
+
+    .link {
+        font-size: 10px;
+    }
+
+    .car {
+        padding: 80px;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        width: 60vw;
+        height: auto;
+    }
+
+
+    .details1,
+    .details2 {
+        width: 90vw;
+        color: white;
+        text-align: justify;
+        font-weight: 700;
+        padding: 15px;
+        line-height: 1.2rem;
+    }
+
+    .details1 {
+        text-align: center;
+        font-weight: 900;
+        width: auto;
+        padding: 20px;
+    }
+
+    .subp {
+        height: auto;
+        width: 70vw;
+    }
+
+    .subp p {
+        font-size: 16px;
+        padding: 15px 15px;
+        font-weight: 900;
+    }
+
+    .content12 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .end {
+        margin-left: 0px;
+        color: white;
+        height: 300px;
+        width: 90vw;
+        font-size: 30px;
+        line-height: 5rem;
+        text-align: right;
+        margin-top: 50px;
+        padding-bottom: 250px;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aut {
+        padding-right: 20px;
+        font-size: 30px;
+    }
+
+    .por {
+        font-size: 80px;
+    }
+
+}
+
+@media (min-width: 482px) and (max-width: 767px) {
+
+
+    .p {
+        background-image: url('./img/land22.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+
+
+        padding-top: 100px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+
+    }
+
+    .title {
+        width: 450px;
+    }
+
+    .title h1 {
+        font-family: "Orbitron", sans-serif;
+        -webkit-text-stroke: 1px black;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 4rem;
+    }
+
+    .title p {
+        padding-top: 30px;
+        font-size: 25px;
+        font-weight: 700;
+        -webkit-text-stroke: .3px black;
+    }
+
+    .nav2 {
+        display: none;
+    }
+
+    .link {
+        font-size: 10px;
+    }
+
+    .car {
+        padding: 80px;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        width: 60vw;
+        height: auto;
+    }
+
+
+    .details1,
+    .details2 {
+        width: 80vw;
+        color: white;
+        text-align: justify;
+        font-weight: 700;
+        padding: 10px;
+        line-height: 1.2rem;
+        font-size: 10px;
+    }
+
+    .details1 {
+        font-size: 10px;
+        text-align: center;
+        font-weight: 700;
+        width: auto;
+        padding: 20px;
+    }
+
+    .subp {
+        height: auto;
+    }
+
+    .subp p {
+        font-size: 15px;
+        padding: 15px 15px;
+        font-weight: 900;
+    }
+
+    .content12 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .end {
+        margin-left: 0px;
+        color: white;
+        height: 300px;
+        width: 90vw;
+        font-size: 15px;
+        line-height: 5rem;
+        text-align: right;
+        margin-top: 50px;
+        padding-bottom: 250px;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aut {
+        padding-right: 30px;
+        font-size: 10px;
+    }
+
+    .por {
+        font-size: 40px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 481px) {
+
+    .navbar{
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        margin-left: 0px;
+    }
+
+
+    .p {
+        background-image: url('./img/land22.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+
+
+        padding-top: 100px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+
+    }
+
+    .title {
+        width: 350px;
+    }
+
+    .title h1 {
+        font-family: "Orbitron", sans-serif;
+        -webkit-text-stroke: 1px black;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 4rem;
+    }
+
+    .title p {
+        padding-top: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        -webkit-text-stroke: .3px black;
+    }
+
+    .nav2 {
+        display: none;
+    }
+
+    .link {
+        font-size: 10px;
+    }
+
+    .car {
+        padding: 80px;
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        width: 60vw;
+        height: auto;
+    }
+
+
+    .details1,
+    .details2 {
+        width: 80vw;
+        font-size: 10px;
+        color: white;
+        text-align: justify;
+        font-weight: 700;
+        padding: 10px;
+        line-height: 1.2rem;
+    }
+
+    .details1 {
+        font-size: 8px;
+        text-align: center;
+        font-weight: 700;
+        width: auto;
+        padding: 20px;
+    }
+
+    .subp {
+        height: auto;
+        width: 70vw;
+    }
+
+    .subp p {
+        font-size: 10px;
+        padding: 15px 15px;
+        font-weight: 700;
+    }
+
+    .content12 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .end {
+        margin-left: 0px;
+        color: white;
+        height: 300px;
+        width: 90vw;
+        font-size: 15px;
+        line-height: 5rem;
+        text-align: right;
+        margin-top: 50px;
+        padding-bottom: 250px;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aut {
+        padding-right: 30px;
+        font-size: 10px;
+    }
+
+    .por {
+        font-size: 40px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+
+}
 
 
 
