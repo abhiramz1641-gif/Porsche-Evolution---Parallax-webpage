@@ -17,13 +17,13 @@ html {
 
 
 
-body {
+/* body {
     overflow-x: hidden;
-}
+} */
 
 .header {
     height: 80px;
-    width: 100vw;
+    width: 100%;
 }
 
 .navbar {
@@ -1042,6 +1042,15 @@ html {
 
 }
 
+@media (max-width: 1024px) {
+  .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11,
+  .content1, .content2, .content3, .content4, .content5,
+  .content6, .content7, .content8, .content9, .content10,
+  .content11, .content12 {
+    background-attachment: scroll !important;
+  }
+}
+
 
 
 
@@ -1055,7 +1064,7 @@ html {
 
 @keyframes moveX1 {
     0% {
-        transform: translateX(-100vw);
+        transform: translateX(-100%);
         opacity: 0;
     }
 
@@ -1070,7 +1079,7 @@ html {
     }
 
     100% {
-        transform: translateX(100vw);
+        transform: translateX(100%);
         opacity: 0;
     }
 }
@@ -1083,7 +1092,7 @@ html {
 
 @keyframes moveX2 {
     0% {
-        transform: translateX(-100vw);
+        transform: translateX(-100%);
         opacity: 0;
     }
 
@@ -1098,7 +1107,12 @@ html {
     }
 
     100% {
-        transform: translateX(100vw);
+        transform: translateX(100%);
         opacity: 0;
     }
+}
+
+html,body{
+    width: 100%;
+    overflow-x: clip;
 }
