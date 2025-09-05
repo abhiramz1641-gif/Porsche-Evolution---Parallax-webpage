@@ -183,7 +183,7 @@ html {
 
 
 .p1 {
-    background-image: url('./img/bg1.png');
+    background-image: url('./img/bg1.webp');
 }
 
 .p1 .subp p {
@@ -193,7 +193,7 @@ html {
 
 
 .p2 {
-    background-image: url('./img/bg2.jpg');
+    background-image: url('./img/bg2.webp');
 }
 
 .p2 .subp p {
@@ -203,13 +203,13 @@ html {
 
 
 .p3 {
-    background-image: url('./img/bg3.jpg');
+    background-image: url('./img/bg3.webp');
 }
 
 
 
 .p4 {
-    background-image: url('./img/bg4.png');
+    background-image: url('./img/bg4.webp');
 }
 
 .p4 .subp p {
@@ -219,33 +219,33 @@ html {
 
 
 .p5 {
-    background-image: url('./img/bg5.png');
+    background-image: url('./img/bg5.webp');
 }
 
 
 
 
 .p6 {
-    background-image: url('./img/bg6.jpg');
+    background-image: url('./img/bg6.webp');
 }
 
 
 
 
 .p7 {
-    background-image: url('./img/bg7.jpg');
+    background-image: url('./img/bg7.webp');
 }
 
 .p8 {
-    background-image: url('./img/bg8.png');
+    background-image: url('./img/bg8.webp');
 }
 
 .p9 {
-    background-image: url('./img/bg9.jpeg');
+    background-image: url('./img/bg9.webp');
 }
 
 .p10 {
-    background-image: url('./img/bg10.png');
+    background-image: url('./img/bg10.webp');
 }
 
 .p11 {
@@ -271,50 +271,50 @@ html {
 
 
 .content1 {
-    background-image: url('./img/land9.jpg');
+    background-image: url('./img/land9.webp');
 }
 
 
 
 .content2 {
-    background-image: url('./img/land10.jpg');
+    background-image: url('./img/land10.webp');
 }
 
 .content3 {
-    background-image: url('./img/land6.jpg');
+    background-image: url('./img/land6.webp');
 }
 
 
 .content4 {
-    background-image: url('./img/land8.jpg');
+    background-image: url('./img/land8.webp');
 }
 
 .content5 {
-    background-image: url('./img/land7.jpg');
+    background-image: url('./img/land7.webp');
 }
 
 .content6 {
-    background-image: url('./img/land6.jpg');
+    background-image: url('./img/land6.webp');
 }
 
 .content7 {
-    background-image: url('./img/land7.jpg');
+    background-image: url('./img/land8.webp');
 }
 
 .content8 {
-    background-image: url('./img/land9.jpg');
+    background-image: url('./img/land9.webp');
 }
 
 .content9 {
-    background-image: url('./img/land8.jpg');
+    background-image: url('./img/land8.webp');
 }
 
 .content10 {
-    background-image: url('./img/land7.jpg');
+    background-image: url('./img/land7.webp');
 }
 
 .content11 {
-    background-image: url('./img/land10.jpg');
+    background-image: url('./img/land10.webp');
 }
 
 .content12 {
